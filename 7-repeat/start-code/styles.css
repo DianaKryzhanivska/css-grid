@@ -1,0 +1,12 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 25px;
+  /* grid-template-columns: repeat(2, 100px 200px); */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: repeat(4, auto); */
+  grid-template-columns: 100px repeat(4, 1fr) auto;
+}
